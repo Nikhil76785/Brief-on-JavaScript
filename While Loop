@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <h1>WHILE LOOPS YAYAY!</h1>
+        <p id="rl"></p>
+
+        <script>
+            var i = 0;
+            var text = "";
+
+            while (i < 10) {
+                text += "<br>The number is: " + i;
+                i++;
+            }
+
+            document.getElementById("rl").innerHTML = text;
+        </script>
+    </body>
+</html>
